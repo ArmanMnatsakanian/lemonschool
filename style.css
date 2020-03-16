@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:inherit;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+header  {
+    background-color: #24282f;
+    padding: 30px 0;
+}
+.container {
+    max-width: 1094px;
+    margin: auto;
+
+}
+header nav ul li {
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 51px;
+
+
+}
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+
+.clearfix {
+    clear: both;
+}
+section {
+    background: url("Header_02.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 70px 0 131px 211px;
+
+
+}
+h1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+.first {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px 11px;
+    line-height: 20px;
+
+
+}
+h2 {
+    color: #8d8f93;
+    text-align: center;
+    font-size: 16px;
+padding: 130px  55px ;
+}
+.title {
+    text-align: center;
+    padding-top: 55px;
+    color: #232323;
+    font-size: 12px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+}
+.image {
+    max-width: 247px;
+}
+
+
+.color {
+    color:#c9bc93;
+}
+
+.button {
+    text-align: center;
+    color: #717478;
+    font-size: 12px;
+    border-radius: 25px;
+
+    display: block;
+    width: 129px;
+    padding-top: 36px;
+    margin:auto;
+    text-decoration: none;
+    font-weight:bold;
+    border-style: solid;
+    text-transform: uppercase;
+
+}
+.conteiner2 {
+    max-width: 889px;
+    margin: auto;
+
+}
+section h2:after {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 61px;
+    height: 2px;
+    background-color: #9d8e5b;
+
+}
+.qwe {
+    width: 200px;
+    height:100px;
+    background-color: yellow;
+
+}
+.qwe:after{
+    width:33%;
+    background-color: green;
+    float:right;
+    content: "";
+    display: inline-block;
+    height:100%;
+}
+.qwe:before{
+    width: 33%;
+    background-color:red;
+    float: left;
+    content:"";
+    display: inline-block;
+    height: 100%;
+}
+.h2{
+    max-width: 889px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+p{
+    color: #c9bc93;
+}
+
+
+
+
